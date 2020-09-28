@@ -97,7 +97,7 @@ public class ComptesResource {
     
     /**
      * Permet de créditer ou de débiter (en fonction du signe de la somme) un compte Pour l'appeler on doit utiliser une URL du type :
-     * http://localhost:8080/banque_rest-web/webresources/comptes/?somme=100
+     * http://localhost:8080/banque_rest-web/webresources/comptes/0?somme=100
      *
      * @param idCompte le compte
      * @param somme    la somme à créditer (si > 0) ou à débiter (si < 0)

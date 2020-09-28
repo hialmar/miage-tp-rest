@@ -36,7 +36,7 @@ import miage.tp.services.BanqueBeanLocal;
 public class ComptesResource {
 
     // Accès BackOffice
-    BanqueBeanLocal banqueBean = lookupBanqueBeanLocal();
+    BanqueBeanLocal banqueBean;
     
 
     @Context

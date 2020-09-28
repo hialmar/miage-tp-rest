@@ -64,8 +64,8 @@ public class ComptesResource {
     }
 
     /**
-     * Creation d'un nouveau compte. Le solde est facultatif (défaut = 0.0). Pour appeler cette méthode on doit utiliser l'URL :
-     * http://localhost:8080/BanqueREST/webresources/comptes/?solde=1000
+     * Creation d'un nouveau compte. Il faut préciser le solde. Pour appeler cette méthode on doit utiliser l'URL :
+     * http://localhost:8080/banque_rest-web/webresources/comptes/?solde=1000
      *
      * @param solde le solde du compte
      *
@@ -82,7 +82,7 @@ public class ComptesResource {
 
     /**
      * Renvoie la représentation JSON d'un compte Pour l'appeler on doit utiliser l'URL :
-     * http://localhost:8080/BanqueREST/webresources/comptes/0
+     * http://localhost:8080/banque_rest-web/webresources/comptes/0
      *
      * @param idCompte id du compte
      *
@@ -97,7 +97,7 @@ public class ComptesResource {
     
     /**
      * Permet de créditer ou de débiter (en fonction du signe de la somme) un compte Pour l'appeler on doit utiliser une URL du type :
-     * http://localhost:8080/BanqueREST/webresources/comptes/0/position?somme=100
+     * http://localhost:8080/banque_rest-web/webresources/comptes/?somme=100
      *
      * @param idCompte le compte
      * @param somme    la somme à créditer (si > 0) ou à débiter (si < 0)
